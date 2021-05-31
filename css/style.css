@@ -1,0 +1,248 @@
+body {
+margin: 0px;
+font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header  {
+height: 800px;
+width: 100%;
+background: url(../img/main_bg_img.jpg);
+text-align: center;
+}
+.logo_box {
+ padding-top: 36px;
+}
+
+.logo_box img {
+    width: 83px;
+    height: 71px;
+}
+.logo_box p {
+    color: white;
+   padding-top: 33px;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.header_title_yellow {
+  font-size: 41px;
+  color: #f9bf3b;  
+
+}
+.header_title_whait {
+    position: relative;
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+}
+.header_title_whait:before {
+    content:"";
+    width: 292px;
+    height: 2px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 44px;
+}
+.header_title_whait::after{
+    content:"";
+    width: 292px;
+    height: 2px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 44px; 
+    right: 0px
+}
+
+ 
+.header_description {
+    color: white;
+    font-size: 21px;
+}
+
+.text_yellow {
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.order_int {
+    background: #37b2d6;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 340px;
+    height: 72px;
+    line-height: 72px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    margin-top: 35px;
+    box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+ 
+}
+.text_more {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: white;
+}
+
+.arrow_img {
+    display: block;
+    margin: 0 auto;
+}
+.intensiv_section {
+    background-color: #efefef;
+    text-align: center;
+    padding: 90px 0 50px ;
+}
+.intensiv_section h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #252525;
+}
+.intensiv_section h2:after {
+    content: "";
+    width: 217px;
+    height: 4px;
+    background: #f9bf3b;
+    display: block;
+    margin: 20px auto 0; 
+}
+
+.intensiv_section h3 {
+    font-size: 23px;
+    font-weight: normal;
+    color: #4a4a4a;
+}
+.intensiv_section .intensiv_colum {
+    width: 360px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about_section {
+    background:url(../img/women_bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 48px;
+    height: 550px;
+}
+.about_text {
+    padding: 90px 0 100px 490px ;
+    font-size: 17px;
+    color: #4a4a4a;
+}
+.about_text h2 {
+    font-size: 25px;
+    color: #299cbd ;
+    text-transform: uppercase;
+}
+.work_section {
+    text-align: center;
+    background: url(../img/work_bg.jpg);
+    color: white;
+    padding: 8px 0 79px;
+    background-size: cover;
+}
+.work_colum {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;   
+}
+.work_section{
+    text-align: center;
+background:url(../img/work_bg.jpg);
+color: #fff;
+padding: 39px 0px 72px;
+background-size: cover;
+
+}
+.work_box{
+    text-align: center;
+    height: 126px;
+}
+.work_colum img {
+    width: 95px;
+}
+.work_section h2{
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+
+}
+.work_section h2:after {
+    content: "";
+    width: 220px;
+    height: 4px;
+    background: #f5df1f;
+    display: block;
+    margin: 20px auto;
+
+}
+.bonus_section{
+    background: #dddddd;
+    text-align: center;
+    font-size: 30px;
+    height: 620px;
+}
+.bonus_colum img{
+   margin-top: 86px;
+}
+.theend{
+    text-align: center;
+    height: 500px;
+    padding-bottom: 70px;
+    
+
+    
+}
+.theend p {
+    margin: 14px 0;
+}
+.theend img{
+    margin-top: 82px;
+    
+}
+.theend_colum{
+    font-size: 30px;
+    font-weight: normal;
+    
+}
+.text_blue{
+    color: #2aadd8;
+    font-size: 36px;
+    text-transform: uppercase;
+    
+    
+}
+.text_medium{
+    font-size: 25px;
+    color: #4a4a4a;
+
+    
+}
+footer{
+    
+    background-color: #1a1a1a;
+    height: 50px;
+    text-align: center;
+    color: #6b6b6b;
+    padding: 40px 0;
+    }
+    .text_1{
+        color: rgb(14, 14, 14);
+        font-size: 30px;
+        font-weight: normal;
+        
+
+
+    }
